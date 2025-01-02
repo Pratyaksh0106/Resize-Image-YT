@@ -33,7 +33,7 @@ jobs:
         
       - name: Plan Terraform
         run: terraform plan -out=tfplan
-       
+               
       - name: Apply Terraform
         run: terraform apply -auto-approve tfplan  
       
